@@ -55,10 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
   };
   
   const partnerLogos = [
-      "/partner-1.png",
-      "/partner-2.png",
-      "/partner-3.png",
-      "/partner-4.png"
+      "assets/partner-1.png",
+      "assets/partner-2.png",
+      "assets/partner-3.png",
+      "assets/partner-4.png"
   ];
   
   function initSlider(containerId, images, intervalDelay = 3000) {
