@@ -1,0 +1,57 @@
+/* css/style.css */
+
+html, body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #f3f4f6; 
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1; 
+    border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #0b529f; 
+}
+section {
+    scroll-margin-top: 20px; 
+}
+
+/* --- HORIZONTAL MARQUEE ANIMATION --- */
+.marquee-container {
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 3rem; 
+    width: 100%;
+}
+
+.marquee-content {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem; 
+    min-width: 100%;
+    animation: scrollX 20s linear infinite; 
+}
+
+.group-hover\:pause:hover .marquee-content {
+    animation-play-state: paused;
+}
+
+@keyframes scrollX {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 3rem));
+    }
+}
