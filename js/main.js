@@ -12,45 +12,45 @@ document.addEventListener("DOMContentLoaded", () => {
   
   const sliderData = {
     karyawan: [
-      "/section2-1.jpg",
-      "/section2-2.jpg",
-      "/section2-3.jpg",
-      "/section2-4.jpg",
-      "/section2-5.jpg",
-      "/section2-6.jpg",
-      "/section2-7.jpg",
-      "/section2-8.jpg",
-      "/section2-9.jpg",
-      "/section2-10.jpg",
-      "/section2-11.jpg",
-      "/section2-12.jpg",
-      "/section2-13.jpg"
+      "assets/section2-1.jpg",
+      "assets/section2-2.jpg",
+      "assets/section2-3.jpg",
+      "assets/section2-4.jpg",
+      "assets/section2-5.jpg",
+      "assets/section2-6.jpg",
+      "assets/section2-7.jpg",
+      "assets/section2-8.jpg",
+      "assets/section2-9.jpg",
+      "assets/section2-10.jpg",
+      "assets/section2-11.jpg",
+      "assets/section2-12.jpg",
+      "assets/section2-13.jpg"
     ],
     crewdible: [
-      "/section2-14.jpg",
-      "/section2-15.jpg",
-      "/section2-16.jpg",
-      "/section2-17.jpg",
-      "/section2-18.jpg",
-      "/section2-19.jpg",
-      "/section2-20.jpg",
-      "/section2-21.jpg",
-      "/section2-22.jpg",
-      "/section2-23.jpg",
-      "/section2-24.jpg"
+      "assets/section2-14.jpg",
+      "assets/section2-15.jpg",
+      "assets/section2-16.jpg",
+      "assets/section2-17.jpg",
+      "assets/section2-18.jpg",
+      "assets/section2-19.jpg",
+      "assets/section2-20.jpg",
+      "assets/section2-21.jpg",
+      "assets/section2-22.jpg",
+      "assets/section2-23.jpg",
+      "assets/section2-24.jpg"
     ],
     training: [
-      "/section9-1.jpg",
-      "/section9-2.jpg",
-      "/section9-3.jpg",
-      "/section9-4.jpg",
-      "/section9-5.jpg",
-      "/section9-6.jpg"
+      "assets/section9-1.jpg",
+      "assets/section9-2.jpg",
+      "assets/section9-3.jpg",
+      "assets/section9-4.jpg",
+      "assets/section9-5.jpg",
+      "assets/section9-6.jpg"
     ],
     pekerja: [
-      "/section11-1.jpg",
-      "/section11-2.jpg",
-      "/section11-3.jpg"
+      "assets/section11-1.jpg",
+      "assets/section11-2.jpg",
+      "assets/section11-3.jpg"
     ]
   };
   
